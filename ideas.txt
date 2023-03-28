@@ -17,7 +17,14 @@ Css query breakpoints
 Css advanced selectors
 BEM
 
-JS (pomalu přejít z JS na TS a pak zkusit něco v Reactu):
+JavaScript
+Hello world + Konzole
+Datove typy
+Procedural funkcni psani (if, cykly, funkce) 
+OOP (enkapsulace, třídy)
+Konvence, standardy, transpilace (js > ts)
+
+JS appky (pomalu přejít z JS na TS a pak zkusit něco v Reactu):
 Kvadraticka rovnice
 Hodiny
 Stopky
