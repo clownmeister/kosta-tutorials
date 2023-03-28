@@ -1,0 +1,14 @@
+### Otázky pohovor
+
+## HTML
+  - Jmenuj nějaké HTML5 prvky
+  - Co patří do Head
+  - Co patří do body
+## CSS
+  - CSS vs SCSS
+  - Co je to BEM
+  - Příklad BEM
+## JS
+  - JS vs ECMA
+  - TS
+## Obecné
