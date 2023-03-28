@@ -1,0 +1,39 @@
+HTML:
+Struktura html body head
+Linky script style
+DIV
+HTML5
+Table
+UL>LI / Menu
+
+HTML Layout:
+Topbar
+Sidebar
+
+CSS:
+Responsive layout
+SCSS
+Css query breakpoints
+Css advanced selectors
+BEM
+
+JS (pomalu přejít z JS na TS a pak zkusit něco v Reactu):
+Kvadraticka rovnice
+Hodiny
+Stopky
+Palindrome checker
+Kalkulačka dýžka
+Kalkulacka
+Sibenice
+Pexeso
+Todo list
+Quiz
+Micky
+Pong
+Piskvorky
+Bludiste
+
+Realny cases + api calls (js/ts/react):
+Pocasi api
+Google login
+JWT introduction
