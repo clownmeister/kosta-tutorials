@@ -10,7 +10,7 @@ HTML Layout:
 Topbar
 Sidebar
 Footer
-Grid
+Flexbox / Grid layout
 Vsechno dohromady
 
 CSS:
