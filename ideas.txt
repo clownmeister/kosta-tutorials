@@ -9,6 +9,9 @@ UL>LI / Menu
 HTML Layout:
 Topbar
 Sidebar
+Footer
+Grid
+Vsechno dohromady
 
 CSS:
 Responsive layout
@@ -40,7 +43,7 @@ Pong
 Piskvorky
 Bludiste
 
-Realny cases + api calls (js/ts/react):
+Realny pripady + api calls (js/ts/react):
 Pocasi api
 Google login
 JWT introduction
