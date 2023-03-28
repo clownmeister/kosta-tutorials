@@ -7,27 +7,27 @@ Table
 UL>LI / Menu
 
 HTML Layout:
-Topbar
-Sidebar
-Footer
-Flexbox / Grid layout
+Topbar(semnou)
+Sidebar(semnou)
+Footer(semnou)
+Flexbox / Grid layout (semnou)
 Vsechno dohromady
 
 CSS:
-Responsive layout
-SCSS
+Responsive layout (semnou)
+SCSS (semnou ale muzes kouknout)
 Css query breakpoints
-Css advanced selectors
-BEM
+Css advanced selectors (semnou)
+BEM (semnou ale muzes kouknout)
 
-JavaScript
+JavaScript(semnou)
 Hello world + Konzole
 Datove typy
 Procedural funkcni psani (if, cykly, funkce) 
 OOP (enkapsulace, třídy)
 Konvence, standardy, transpilace (js > ts)
 
-JS appky (pomalu přejít z JS na TS a pak zkusit něco v Reactu):
+JS appky (pomalu přejít z JS na TS a pak zkusit něco v Reactu):(semnou)
 Kvadraticka rovnice
 Hodiny
 Stopky
@@ -43,7 +43,7 @@ Pong
 Piskvorky
 Bludiste
 
-Realny pripady + api calls (js/ts/react):
+Realny pripady + api calls (js/ts/react):(semnou)
 Pocasi api
 Google login
 JWT introduction
