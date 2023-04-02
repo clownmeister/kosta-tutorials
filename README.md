@@ -23,3 +23,4 @@ Check [ideas.txt](/ideas.txt) for possible future topics.
 * [Free product mockups](https://smartmockups.com/)
 * [Totally free skill courses - programming / design / etc](https://tutsplus.com/)
 * [Bootstrap - components / css library](https://getbootstrap.com/docs/5.3/components/buttons/)
+* [Image placeholders](https://picsum.photos/)
