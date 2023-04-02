@@ -4,7 +4,10 @@ This repository serves as a tool to practice and learn `HTML5`, `CSS3`, `JavaScr
 
 ## Topics
 
-No topics yet decided. Check [ideas.txt](/ideas.txt) for possible future ideas.
+1. [Example structure](/00&#32;-&#32;Test)
+1. [Login Form](/01&#32;-&#32;Login&#32;Form)
+
+Check [ideas.txt](/ideas.txt) for possible future topics.
 
 
 ### Useful links
