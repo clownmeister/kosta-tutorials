@@ -5,20 +5,36 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>First form</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <title>Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
-<h1> First attempt at form</h1>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
-<div class ="align-content-center">
-<img class="anonymous" src="Images/Login_picture.jpg" alt="Anonymous">
-<form>
-    <input type="text" placeholder="Username/email"><br>
-    <input type="password" placeholder="Password"><br>
-    <input type="checkbox" name="Remember me" value="1">Remember me<br>
-    <input type="submit" value="Log in">
-</form>
+<div class="page page--login">
+    <div class="login">
+        <h1>Login form</h1>
+        <img class="login__image" src="Images/Login_picture.jpg" alt="Anonymous">
+        <form>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email">
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" class="form-control" id="password">
+            </div>
+            <div class="mb-3 form-check login__checkbox">
+                <input type="checkbox" class="form-check-input" id="remember-me">
+                <label class="form-check-label ms-2" for="remember-me">Remember me</label>
+            </div>
+            <input type="submit" value="Log in" class=" btn btn-primary">
+        </form>
+    </div>
 </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+<script src="js/MyPlugin.js"></script>
 </body>
 </html>
