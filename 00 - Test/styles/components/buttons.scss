@@ -1,0 +1,19 @@
+.button {
+  color: #000;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  font-weight: 700;
+  &--red {
+    color: #fff;
+    background-color: #F00;
+  }
+  &--blue {
+    color: #fff;
+    background-color: #00F;
+  }
+  &--gray {
+    color: #000;
+    background-color: #aaa;
+  }
+}
