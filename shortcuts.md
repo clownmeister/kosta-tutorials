@@ -19,3 +19,10 @@
 
 ### Clipboard history
 `CTRL + SHIFT + V`
+
+### Pin tab(záložka)
+`CTRL + P`
+
+### File history
+`CTRL + E`
+
