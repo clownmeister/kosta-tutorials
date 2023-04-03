@@ -1,5 +1,5 @@
 /.idea
 
-index.css
-index.css.map
+*.css
+*.css.*
 
