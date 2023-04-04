@@ -1,0 +1,29 @@
+.login {
+  margin: auto;
+  text-align: center;
+
+  &__image {
+    width: 56px;
+  }
+
+  &__label {
+    font-size: larger;
+    font-weight: bold;
+    color: #0d0950;
+    font-family: "Times New Roman", serif;
+  }
+
+  &__checkbox-label {
+    font-size: 13px;
+  }
+
+  &__heading {
+    font-family: "Georgia", sans-serif;
+    color: #0d0950;
+  }
+
+  input[type="checkbox"] {
+    transform: scale(0.7);
+  }
+}
+
