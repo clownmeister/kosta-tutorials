@@ -1,0 +1,40 @@
+
+//POST
+.post-view {
+  max-width: 900px;
+  margin: 15px auto;
+}
+
+.post {
+  display: block;
+
+  &__header {
+    border-bottom: 1px solid $post-border;
+    padding-bottom: 5px;
+  }
+
+  &__heading {
+
+  }
+
+  &__date{
+    margin-top: 5px;
+    font-size: 12px;
+    color: #4b4b4b;
+  }
+
+  &__image {
+    float: right;
+    transition: 1s transform;
+    border-radius: 10px;
+    margin: 0 15px;
+    &:hover {
+      transform: scale(1.01);
+    }
+  }
+
+  &__body {
+    overflow: auto;
+    padding: 15px 0;
+  }
+}

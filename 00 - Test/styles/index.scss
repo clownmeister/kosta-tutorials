@@ -1,2 +1,13 @@
-@import "components/buttons";
+//reset styles
+* {
+  margin: 0;
+}
+
+@import "../../assets/styles/typography";
+@import "../../assets/styles/variables";
+@import "../../assets/styles/components";
+
+@import "components/post";
+@import "components/post-preview";
+@import "components/breadcrumbs";
 

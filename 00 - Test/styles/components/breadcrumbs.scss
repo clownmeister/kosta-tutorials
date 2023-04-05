@@ -1,0 +1,8 @@
+.breadcrumbs {
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: #949494;
+  & > a {
+    color: inherit;
+  }
+}
