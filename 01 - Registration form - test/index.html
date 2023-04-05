@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="cs" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link href="css/index.css" rel="stylesheet">
+</head>
+<body>
+<div class="page page__register" >
+    <div class="login" id="login">
+        <h1 class="login__heading">Login form</h1>
+        <img class="login__image"
+             src="images/kisspng-computer-icons-login-person-user-avatar-log-5b14db41a61fb6.0478299015280935056805.jpg"
+             alt="Silueta člověka">
+        <div class="login__label">
+            <form onsubmit="loginAlert()">
+                <div class="mb-3">
+                    <label for="email-login" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email-login">
+                </div>
+                <div class=" mb-3">
+                    <label for="password-login" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="password-login">
+                </div>
+                <div class="mb-3">
+                    <label for="checkbox" class="form-label login__checkbox-label">Remember me</label>
+                    <input type="checkbox" class="form-check-input login__checkbox" id="checkbox">
+                </div>
+                <div class="btn btn-primary" onclick="showRegister()">Sign up</div>
+                <div class="btn btn-success" onclick="print('cokoli')">info</div>
+                <input type="submit" value="Log in" class="btn btn-outline-primary">
+            </form>
+        </div>
+    </div>
+    <div class="register hidden" id="register">
+        <h1>Register</h1>
+        <img class="register__image" src="images/new-registration-icon.webp" alt="form">
+        <div>
+            <form>
+                <div>
+                    <label for="name-signup" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name-signup">
+                </div>
+                <div>
+                    <label for="email-signup" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email-signup">
+                </div>
+                <div>
+                    <label for="password-signup" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="password-signup">
+                </div>
+                <div class="mb-3">
+                    <label for="password-again" class="form-label">Password again</label>
+                    <input type="password" class="form-control" id="password-again">
+                </div>
+                <div>
+                    <div class="btn btn-danger" onclick="showLogin()">Back to login</div>
+                    <div class="btn btn-success" onclick="registerAlert()">Register</div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
