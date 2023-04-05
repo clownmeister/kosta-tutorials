@@ -1,0 +1,12 @@
+.page {
+  display: flex;
+
+  &--login {
+    width: 100%;
+    height: 100vh;
+  }
+  &--posts {
+    flex-flow: row;
+  }
+}
+

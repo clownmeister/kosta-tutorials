@@ -1,0 +1,12 @@
+.register {
+  margin: auto;
+  text-align: center;
+  padding: 35px 155px;
+  border: solid;
+  border-radius: 20px;
+
+
+  &__image {
+    height: 120px;
+  }
+}
