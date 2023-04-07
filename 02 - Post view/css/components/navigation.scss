@@ -2,13 +2,14 @@
   list-style-type: none;
   margin: 0 auto;
   width: 1350px;
-  background: #fff6e8;
-  text-decoration: none;
   &__ul{
     text-align: center;
     font-family: "Georgia", sans-serif;
   }
   &__li{
+  }
+  &__background{
+    background: #1f0909;
   }
 }
 
@@ -17,5 +18,5 @@ li {
   padding: 10px;
   list-style-type: none;
   float: left;
-
 }
+
