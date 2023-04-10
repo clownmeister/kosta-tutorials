@@ -3,42 +3,54 @@
   margin: 0 auto;
   width: 1350px;
 
-  &__ul {
+  &__list {
     text-align: center;
     font-family: "Georgia", sans-serif;
   }
 
-  &__li {
+  &__list-link {
     text-decoration: none;
     color: #afa2a2;
 
   }
 
-  &__li_button {
+  &__list-item-button {
     border-left: #4b4b4b solid;
+    width: 160px;
+    padding: 10px;
+    list-style-type: none;
+    float: left;
 
   }
-  &__li_button:hover{
+  &__list-item-button:hover{
     border-bottom: #4b4b4b solid;
+    width: 160px;
+    padding: 10px;
+    list-style-type: none;
+    float: left;
   }
-  &__li_button_right {
+  &__list-item-button-right {
     border-left: #4b4b4b solid;
     border-right: #4b4b4b solid;
+    width: 160px;
+    padding: 10px;
+    list-style-type: none;
+    float: left;
   }
-&__li_button_right:hover {
+&__list-item-button-right:hover {
   border-bottom: #4b4b4b solid;
+  width: 160px;
+  padding: 10px;
+  list-style-type: none;
+  float: left;
+
 }
   &__background {
     background: #0a0d1e;
   }
 }
 
-li {
-  width: 160px;
-  padding: 10px;
-  list-style-type: none;
-  float: left;
-}
+
 
 
 
