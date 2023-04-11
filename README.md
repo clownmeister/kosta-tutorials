@@ -2,7 +2,7 @@
 
 This repository serves as a tool to practice and learn `HTML5`, `CSS3`, `JavaScript` and basic of `TypeScript`.
 
-[Kanban link](https://github.com/clownmeister/kosta-tutorials/projects?query=is%3Aopen)
+[Kanban link](https://github.com/users/clownmeister/projects/2)
 
 ## Topics
 
