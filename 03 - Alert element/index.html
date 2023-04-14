@@ -145,15 +145,22 @@
     </div>
 </a>
 <div class="notification">
-    <div class="notification__toast notification__toast-success">
+    <div class="notification__toast notification__toast-success" id="success">
+        <div class="btn notification__close-cross" onclick="closesucces()">X</div>
         Successfully logged in!
     </div>
-    <div class="notification__toast notification__toast-error">
+    <div class="notification__toast notification__toast-error" id="error">
+        <div class="btn notification__close-cross" onclick="closeerror()">X</div>
         Password have to be long at least 6 characters!
     </div>
-    <div class="notification__toast notification__toast-warning">
+    <div class="notification__toast notification__toast-warning" id="warning">
+        <div class="btn notification__close-cross" onclick="closewarning()">X</div>
         You will be logged out in 30 seconds!
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+            crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
 </div>
 </body>
 </html>
