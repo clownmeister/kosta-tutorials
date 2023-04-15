@@ -1,0 +1,13 @@
+.email {
+  cursor: pointer;
+  transition: .6s background-color;
+  &__message {
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 400px;
+    text-overflow: ellipsis;
+  }
+  &:hover {
+    background-color: rgba(219, 238, 255, 0.7);
+  }
+}

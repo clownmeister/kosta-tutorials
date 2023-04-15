@@ -1,17 +1,22 @@
-function closesucces() {
-    document.getElementById('success').onclick = function () {
-        this.remove()
-    };
+const ButtonInitializer = () => {
+    const init = () => {
+        document.getElementById('success').onclick = function () {
+            this.remove()
+        };
+        document.getElementById('error').onclick = function () {
+            this.remove()
+        };
+        document.getElementById('warning').onclick = function () {
+            this.remove()
+        };
+    }
+
+    return {
+        init: init
+    }
 }
 
-function closeerror() {
-    document.getElementById('error').onclick = function () {
-        this.remove()
-    };
-}
 
-function closewarning() {
-    document.getElementById('warning').onclick = function () {
-        this.remove()
-    };
-}
+document.addEventListener('DOMContentLoaded',() => {
+    ButtonInitializer.init();
+});
