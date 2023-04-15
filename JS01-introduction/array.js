@@ -13,8 +13,6 @@ write("Seznam produktů:")
 writeArray(fruit)
 writeArray(vegetables)
 
-
-
 //POLE OBJEKTU
 const email1 = {
   title: "vyhral ste milion",
