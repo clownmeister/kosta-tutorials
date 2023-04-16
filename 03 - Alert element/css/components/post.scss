@@ -1,0 +1,27 @@
+.post {
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 1350px;
+
+
+  &__header {
+    font-family: "Georgia", sans-serif;
+    border-bottom: #949494 solid;
+
+  }
+
+  &__body {
+    font-family: "Roboto", sans-serif;
+  }
+
+  &__image {
+    float: right;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  &__my-breadcrumb {
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
+  }
+}

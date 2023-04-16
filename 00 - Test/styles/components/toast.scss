@@ -1,0 +1,23 @@
+.toast {
+  color: #fff;
+
+  &:not(:last-of-type) {
+    margin-bottom: 10px;
+  }
+
+  &__wrapper {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+  }
+
+  &--success {
+    background-color: #28a745;
+  }
+  &--danger {
+    background-color: #dc3545;
+  }
+  &--warning {
+    background-color: #ffc107;
+  }
+}

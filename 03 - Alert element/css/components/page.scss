@@ -1,0 +1,17 @@
+.page{
+
+
+  &__heading{
+    text-align: center;
+    font-size: 50px;
+    font-family: "Times New Roman", serif;
+    color: #1c1919;
+  }
+  &__link{
+    text-decoration: none;
+    color: black;
+  }
+  &__link:hover{
+    border-bottom: black solid 0.5px;
+  }
+}

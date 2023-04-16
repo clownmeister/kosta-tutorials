@@ -1,0 +1,35 @@
+.preview {
+  box-sizing: border-box;
+  width: 610px;
+  margin: 10px auto;
+  border: rgba(75, 75, 75, 0.43) solid;
+  padding: 15px;
+  border-radius: 10px;
+  color: black;
+
+  &__content {
+    font-size: 16px;
+  }
+
+  &__image {
+    width: 90px;
+    float: left;
+    margin: 6px;
+    border-radius: 10px;
+  }
+
+  &__body {
+    border-bottom: rgba(75, 75, 75, 0.43) solid;
+  }
+
+  &__footer {
+    font-size: 13px;
+  }
+
+  &__link {
+    text-decoration: none;
+    display: block;
+    width: 610px;
+    margin: auto;
+  }
+}
