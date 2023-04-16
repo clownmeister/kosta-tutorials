@@ -1,0 +1,15 @@
+.email {
+  cursor: pointer;
+  //Tohle zajistuje animaci barvicky .6 znamená přechod za 0.6 vteřiny
+  transition: .6s background-color;
+  &__message {
+    //Moc velkej text schovame 3 teckama (funguje jen na jednoradkovy veci, takovej css tricek :D)
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 400px;
+    text-overflow: ellipsis;
+  }
+  &:hover {
+    background-color: rgba(219, 238, 255, 0.7);
+  }
+}
