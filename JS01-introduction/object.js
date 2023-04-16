@@ -7,6 +7,7 @@ let user = {
 renderUser(user)
 
 user = {
+
   firstName: 'jan',
   lastName: 'kosta',
 }

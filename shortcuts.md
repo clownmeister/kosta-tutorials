@@ -26,3 +26,11 @@
 ### File history
 `CTRL + E`
 
+### Square brackets([])
+`ALT + F,G`
+
+### Close TAB
+`CTRL + W`
+
+### Reopen TAB 
+`CTRL + SHIFT + T`

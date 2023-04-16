@@ -16,7 +16,6 @@ function renderUser(user) {
 }
 
 
-
 function writeArray(stringArray) {
   //funkce pro vypis polozek z pole
   //do funkce prijde pole ovoce
