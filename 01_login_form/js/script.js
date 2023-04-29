@@ -3,7 +3,7 @@ function signup() {
 }
 
 function loginAlert() {
-    var emailInput = document.getElementById('email')
+    let emailInput = document.getElementById('email')
     alert('Logged user: ' + emailInput.value)
 
 }

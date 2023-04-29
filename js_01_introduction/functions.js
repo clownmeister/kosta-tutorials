@@ -1,18 +1,18 @@
 function write(text) {
   //funkce misto console.log abychom videli veci na strance
 
-  let element = document.createElement("div");
+  let element = document.createElement('div');
   element.innerHTML = text;
   document.body.append(element);
 }
 
 function newline() {
-  let element = document.createElement("br");
+  let element = document.createElement('br');
   document.body.append(element);
 }
 
 function renderUser(user) {
-  write(user.firstName + " " + user.lastName)
+  write(user.firstName + ' ' + user.lastName)
 }
 
 
@@ -32,7 +32,7 @@ function writeArray(stringArray) {
   }
 }
 function renderEmail(email) {
-  write("<b>" + email.title + "</b>: " + email.message)
+  write('<b>' + email.title + '</b>: ' + email.message)
 }
 function writeEmails(emails){
   for (const email of emails) {

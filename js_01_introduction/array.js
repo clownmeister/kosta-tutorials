@@ -9,24 +9,24 @@ const vegetables = [
   'onion', 'pepper', 'melon'
 ]
 
-write("Seznam produktů:")
+write('Seznam produktů:')
 writeArray(fruit)
 writeArray(vegetables)
 
 //POLE OBJEKTU
 const email1 = {
-  title: "vyhral ste milion",
-  message: "Dobry den stal jste vyhercem mobilniho telefonu. Kliknete zde.",
+  title: 'vyhral ste milion',
+  message: 'Dobry den stal jste vyhercem mobilniho telefonu. Kliknete zde.',
 }
 
 const email2 = {
-  title: "Ahoj Luciane",
-  message: "Ahoj jak se mas. Ja se mam dobre. Honza",
+  title: 'Ahoj Luciane',
+  message: 'Ahoj jak se mas. Ja se mam dobre. Honza',
 }
 
 const email3 = {
-  title: "Nazdar kámo",
-  message: "Jak to jde bro?",
+  title: 'Nazdar kámo',
+  message: 'Jak to jde bro?',
 }
 
 //vypiseme emaily
