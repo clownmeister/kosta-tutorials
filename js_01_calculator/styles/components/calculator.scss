@@ -7,21 +7,29 @@
 }
 
 .calculator {
-  display: grid;
-  grid-template-rows:83px 83px 83px 83px 83px 83px;
-  grid-template-columns:100px 100px 100px 100px;
-  border: 2px #4B4B4B61 solid;
-  border-radius: 10px;
+  display: flex;
+  flex-flow: column;
+  overflow: hidden;
+  max-width: 434px;
 
-
+  &__body {
+    display: grid;
+    grid-template-rows:83px 83px 83px 83px 83px;
+    grid-template-columns:100px 100px 100px 100px;
+    border: 2px #4B4B4B61 solid;
+    border-radius: 0 0 10px 10px;
+    padding: 10px 15px 15px;
+    flex: 0 0 auto;
+  }
 
   &__display {
     background: #252525;
     color: #fff6e8;
     font-size: 70px;
-    grid-row: 1 / 1;
-    grid-column: 1 / 5;
     border-radius: 10px 10px 0 0;
+    padding: 0 25px;
+    text-align: right;
+    flex: 1 1 100%;
   }
 
   &__field {
@@ -50,7 +58,7 @@
     }
 
     &--equal {
-      grid-row: 3 / 7;
+      grid-row: 2 / 6;
       grid-column: 4 / 5;
       font-weight: 600;
       font-size: 32px;

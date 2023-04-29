@@ -22,13 +22,14 @@ function createHtmlFromVegetableData(vegetable) {
         <td class="table__actions">
             <div class="input-group">
                 <span class="input-group-text">ks</span>
-                <input type="number" class="form-control" aria-label="Počet kusů" value="1">
-            <button class="btn btn-success">Koupit</button>
+                <input type="number" class="form-control" aria-label="Počet kusů" value="1" id="vegetable-item">
+            <button type="button" class="btn btn-success" data-bs-toggle="modal" onclick="addToCart()"  data-bs-target="#exampleModal">Koupit</button>
             </div>
         </td>
     </tr>
     `
 }
+
 
 // Toto bude napárované na button
 function renderVegetableList() {
@@ -42,8 +43,7 @@ function renderVegetableList() {
 
 renderVegetableList()
 
-
-
+//
 
 
 

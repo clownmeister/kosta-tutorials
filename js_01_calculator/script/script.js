@@ -8,8 +8,8 @@ function operation(sign) {
     currentInput = ''
     currentOperation = sign
     if (sign === '=') {
-        currentInput = sum.toString()
-        sum = 0
+        currentInput = sum.toLocaleString('cs-CZ', {maximumFractionDigits:9})
+        // sum = 0
         updateDisplay()
     }
     console.log('sum',sum)
@@ -27,12 +27,19 @@ function updateDisplay() {
     if (currentInput === '') {
         displayElement.innerText = '0'
     } else {
-        displayElement.innerText = currentInput
+        displayElement.innerText = parseFloat(currentInput).toString()
     }
 }
 
 function processLastOperation() {
-    const parsedInput = parseInt(currentInput)
+    let parsedInput = parseFloat(currentInput)
+    if (isNaN(parsedInput)) {
+        parsedInput = 0
+    }
+    if (currentOperation === '') {
+       sum = parsedInput
+        return
+    }
     if (currentOperation === '+') {
         sum += parsedInput
         return
