@@ -6,7 +6,6 @@
 .chat {
   flex-flow: column;
   width: 500px;
-  height: 800px;
   display: flex;
   border-radius: 30px;
   box-shadow: #000 0 0 25px -10px;
@@ -30,11 +29,14 @@
   }
 
   &__body {
+    height: 600px;
     padding: 15px;
-    flex: 1 1 auto;
+    flex: 0 1 auto;
     display: flex;
     flex-flow: column;
     justify-content: flex-end;
+    overflow-y: scroll;
+
   }
 
   &__footer {
@@ -67,6 +69,8 @@
     display: flex;
     flex-flow: column;
     background-color: #c9efff;
+    word-wrap: break-word;
+    overflow: hidden;
 
   }
 
@@ -80,6 +84,7 @@
     background-size: cover;
     background-image: url("https://placehold.co/100");
     margin-right: 15px;
+    flex: 0 0 auto;
   }
 
   &__input {
