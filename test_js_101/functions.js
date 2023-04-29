@@ -4,7 +4,7 @@ newline()
 function write(text) {
 
 
-    let element = document.createElement("div");
+    let element = document.createElement('div');
     //innerHTML - vypíše pomocí html, inertext- vypíše text
     element.innerHTML = text
     //tato funkce říká kam dáme element, který jsme si vytvořili výše
@@ -18,7 +18,7 @@ function writeArray(stringArray) {
 
 // Když mám array se složitějšími "atributy?" jako firstName atd. musím udat jak se mají informace zobrazit
 function renderUser(user) {
-    write(user.firstName + " " + user.lastName)
+    write(user.firstName + ' ' + user.lastName)
 }
 
 

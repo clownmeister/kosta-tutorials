@@ -5,11 +5,11 @@ function registerAlert() {
 }
 
 function backToLogin() {
-    var x = document.getElementById("hiddenLogin");
-    if (x.style.display === "none") {
-        x.style.display = "block";
+    var x = document.getElementById('hiddenLogin');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
     } else {
-        x.style.display = "none";
+        x.style.display = 'none';
     }
 }
 
