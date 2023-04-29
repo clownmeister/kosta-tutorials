@@ -1,7 +1,8 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
+
 .chat {
   flex-flow: column;
   width: 500px;
@@ -19,6 +20,7 @@
     justify-content: center;
     align-items: center;
   }
+
   &__header {
     padding: 15px;
     background: #54b4d3;
@@ -26,24 +28,48 @@
     font-weight: bold;
     flex: 0 1 auto;
   }
+
   &__body {
     padding: 15px;
     flex: 1 1 auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
   }
+
   &__footer {
     padding: 5px 15px 15px 15px;
     flex: 0 1 auto;
   }
+
   &__row {
     display: flex;
     flex-flow: row;
+    margin-top: 15px;
 
+    &--response {
+      flex-direction: row-reverse;
+      .chat__avatar {
+        margin-left: 15px;
+        margin-right: 0;
+      }
+      .chat__message {
+        background-color: #eeeeee;
+      }
+    }
   }
+
   &__message {
     border: 1px solid #d9d9d9;
     flex: 1 1 auto;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    flex-flow: column;
+    background-color: #c9efff;
 
   }
+
   &__avatar {
     $avatarSize: 50px;
     height: $avatarSize;
@@ -52,12 +78,13 @@
     border-radius: $avatarSize * 2;
     background-position: center;
     background-size: cover;
-    &--user1 {
-      background-image: url("https://placehold.co/100");
-    }
+    background-image: url("https://placehold.co/100");
+    margin-right: 15px;
   }
+
   &__input {
     resize: vertical;
+    min-height: 120px !important;
 
   }
 
