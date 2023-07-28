@@ -1,6 +1,6 @@
 # Tutorial project
 
-This repository serves as a tool to practice and learn `HTML5`, `CSS3`, `JavaScript` and basic of `TypeScript`.
+This repository serves as a tool to practice and learn `HTML5`, `CSS3`, `JavaScript` and basic of `TypeScript`. Made for my friend trying to learn development. Feel free to poke around.
 
 [Kanban link](https://github.com/users/clownmeister/projects/2)
 
